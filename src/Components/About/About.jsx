@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImg from "../../assets/7358653-removebg-preview.png";
 import { IoArrowForward } from "react-icons/io5";
+
 const About = () => {
   return (
     <div
@@ -46,7 +47,12 @@ const About = () => {
                   Email
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  mhamzaatabb1166@gmail.com
+                  <a
+                    href="mailto:mhamzaatabb1166@gmail.com"
+                    className="text-yellow-500 hover:text-white"
+                  >
+                    mhamzaatabb1166@gmail.com
+                  </a>
                 </p>
               </span>
             </div>
@@ -58,10 +64,20 @@ const About = () => {
                   Contact
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  +971 52 109 6471
+                  <a
+                    href="tel:+971521096471"
+                    className="text-yellow-500 hover:text-white"
+                  >
+                    +971 52 109 6471
+                  </a>
                 </p>
                 <p className="text-sm md:text-md leading-tight">
-                  +92 313 43 72 928
+                  <a
+                    href="tel:+923134372928"
+                    className="text-yellow-500 hover:text-white"
+                  >
+                    +92 313 43 72 928
+                  </a>
                 </p>
               </span>
             </div>

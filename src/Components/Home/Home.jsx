@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/me1.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -27,7 +27,16 @@ const Home = () => {
         </button>
       </div>
       <div>
-        <img className="" src={avatarImg} alt="Avatar" />
+        <img
+          style={{
+            height: "auto",
+            maxWidth: "100%",
+            width: "500px", // Adjust this as needed for your layout
+          }}
+          className="img-fluid ms-2" // Bootstrap class for responsive images
+          src={avatarImg}
+          alt="Avatar"
+        />
       </div>
     </div>
   );

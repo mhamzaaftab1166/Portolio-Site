@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import for navigation
 import bannerImg from "../../assets/photo-C8q0KQHG.webp";
 
 // Modal component for confirming front-end or back-end code redirection
@@ -53,9 +54,11 @@ const ProjectCard = ({
   backendCode,
   image,
   url,
+  video, // New prop for the video URL
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [showModal, setShowModal] = useState(false); // State for showing the modal
+  const navigate = useNavigate(); // Initialize React Router navigate function
 
   const handleShowMore = () => {
     setIsExpanded(!isExpanded);
@@ -86,8 +89,12 @@ const ProjectCard = ({
     if (url) {
       // Redirect to the demo URL if it exists
       window.location.href = url;
+    } else if (video) {
+      // Navigate to the video page or play the video
+      navigate("/video", { state: { videoUrl: video } });
+    } else {
+      alert("No demo available.");
     }
-    // If url is not provided, do nothing (no redirect)
   };
 
   return (

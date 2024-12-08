@@ -30,9 +30,9 @@ const About = () => {
                 <p className="text-sm md:text-md leading-tight">
                   Experienced Software Engineer specialized in the MERN stack,
                   including{" "}
-                  <span className="font-bold text-yellow-500">React.js</span>,
+                  <span className="font-bold text-yellow-500">React.js</span>,{" "}
                   <span className="font-bold text-yellow-500">Next.js</span>,
-                  and
+                  and{" "}
                   <span className="font-bold text-yellow-500">
                     React Native
                   </span>

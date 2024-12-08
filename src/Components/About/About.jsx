@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/myavatar.png";
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
@@ -19,23 +19,31 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Muhammad Hamza Aftab
+                  Muhammad Hamza Aftab{" "}
+                  <span
+                    style={{ fontSize: "15px" }}
+                    className="text-yellow-500"
+                  >
+                    <small className="font-semibold">(Gold Medalist)</small>
+                  </span>
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  I graduated with a Bachelor's in Information Technology from
-                  National Textile University in Faisalabad, Pakistan, between
-                  2020 and 2024. During my time there, I achieved a{" "}
-                  <strong className="font-bold text-yellow-500">
-                    CGPA of 3.55/4.0{" "}
-                  </strong>
-                  and was honored with the{" "}
-                  <strong className="font-bold text-yellow-500">
-                    Gold Medal{" "}
-                  </strong>
-                  for having the highest CGPA in my class. My studies provided
-                  me with a strong foundation in software development, data
-                  management, and networking, which has greatly contributed to
-                  my expertise in the IT field.
+                  Experienced Software Engineer specialized in the MERN stack,
+                  including{" "}
+                  <span className="font-bold text-yellow-500">React.js</span>,
+                  <span className="font-bold text-yellow-500">Next.js</span>,
+                  and
+                  <span className="font-bold text-yellow-500">
+                    React Native
+                  </span>
+                  . With over a year of experience in{" "}
+                  <span className="font-bold text-yellow-500">
+                    web and mobile development
+                  </span>
+                  , I am skilled in building user-friendly websites and
+                  applications using modern web standards and cutting-edge
+                  techniques. Dedicated to delivering high-quality work and
+                  constantly seeking new challenges to enhance my skills.
                 </p>
               </span>
             </div>

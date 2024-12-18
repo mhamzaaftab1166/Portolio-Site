@@ -27,7 +27,7 @@ const Home = () => {
         </button>
       </div>
       <div>
-        <img
+        {/* <img
           style={{
             height: "auto",
             maxWidth: "100%",
@@ -36,7 +36,7 @@ const Home = () => {
           className="img-fluid ms-2" // Bootstrap class for responsive images
           src={avatarImg}
           alt="Avatar"
-        />
+        /> */}
       </div>
     </div>
   );

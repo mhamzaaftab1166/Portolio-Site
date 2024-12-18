@@ -72,7 +72,7 @@ const ProjectCard = ({
 
   const handleSourceCodeClick = () => {
     if (!frontendCode && !backendCode) {
-      alert("No code available");
+      alert("Code is private, Can show during interview!");
     } else if (frontendCode && backendCode) {
       // Both front-end and back-end code are available, show modal
       setShowModal(true);

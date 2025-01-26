@@ -7,6 +7,7 @@ import movix from "../../assets/movix.jpeg";
 import kr from "../../assets/kr.jpeg";
 import uaeicon from "../../assets/uaeicon.jpeg";
 import share from "../../assets/share.jpeg";
+import auction from "../../assets/auction.jpeg";
 
 const Projects = () => {
   return (
@@ -23,6 +24,12 @@ const Projects = () => {
                     integration"
           url={"https://uaeicons.com/"}
           image={uaeicon}
+        />
+        <ProjectCard
+          title="GirGir Auction"
+          main="GirGir Auction, a Salina Limited product, enables live bidding, pre-bids, and direct car purchases. As the Frontend Lead, I developed the platform using Next.js, Redux, Bootstrap, and CSS modules to ensure responsiveness and a seamless user experience."
+          url={"https://girgirauction.com/"}
+          image={auction}
         />
         <ProjectCard
           title="KR Institute"

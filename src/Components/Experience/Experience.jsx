@@ -68,7 +68,7 @@ const Experience = () => {
                 Full Stack Developer - MERN, Salina Limited Company
               </h2>
               <p className="text-sm leading-tight font-thin">
-                July,2024 - Present
+                June,2024 - Present
               </p>
               <ul className="text-sm p-2">
                 <li>- Developed web applications with React.js and Next.js.</li>
@@ -77,22 +77,6 @@ const Experience = () => {
                   - Managed backend with Node.js and databases like MongoDB and
                   SQL.
                 </li>
-              </ul>
-            </span>
-          </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <SiJirasoftware color="#0052CC" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">
-                Software Engineer Interne, Qbatch
-              </h2>
-              <p className="text-sm leading-tight font-thin">
-                June 2023 to July 2023
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Extracted data using web scraping.</li>
-                <li>- Built user-friendly web apps (Full-stack).</li>
-                <li>- Skilled in Git, GitHub, and SQL.</li>
               </ul>
             </span>
           </div>
@@ -113,6 +97,22 @@ const Experience = () => {
                   - Assisted students with troubleshooting and problem-solving.
                 </li>
                 <li>- Supported teachers with management tasks.</li>
+              </ul>
+            </span>
+          </div>
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <SiJirasoftware color="#0052CC" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight">
+                Software Engineer Interne, Qbatch
+              </h2>
+              <p className="text-sm leading-tight font-thin">
+                June 2023 to August 2023
+              </p>
+              <ul className="text-sm p-2">
+                <li>- Extracted data using web scraping.</li>
+                <li>- Built user-friendly web apps (Full-stack).</li>
+                <li>- Skilled in Git, GitHub, and SQL.</li>
               </ul>
             </span>
           </div>
